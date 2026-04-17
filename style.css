@@ -3,11 +3,84 @@ body {
   font-family: Arial;
   background: #111;
   color: white;
-  text-align: center;
 }
 
 header {
   background: orange;
   color: black;
+  text-align: center;
   padding: 20px;
+}
+
+nav {
+  background: #000;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: orange;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  background: #222;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+section {
+  text-align: center;
+  padding: 20px;
+}
+
+footer {
+  background: black;
+  text-align: center;
+  padding: 10px;
+  color: gray;
+}
+
+/* Botão WhatsApp */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: green;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 20px;
 }
